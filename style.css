@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.7;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile-img {
+    width: 160px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: #d1d5db;
+}
+
+.resume-actions {
+    margin-top: 20px;
+}
+
+.resume-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: white;
+    color: #1f2937;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none !important;   /* force remove underline */
+    border: none;
+    transition: all 0.25s ease;
+}
+
+.resume-btn:hover {
+    background: #f3f4f6;
+    text-decoration: none !important;   /* prevent hover underline */
+}
+/* NAV */
+nav {
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+/* MAIN */
+main {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    border-left: 5px solid #2563eb;
+    padding-left: 10px;
+}
+
+/* SKILLS */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.skill-category h3 {
+    margin-bottom: 10px;
+    color: #2563eb;
+}
+
+/* METRICS */
+#metrics li {
+    background: white;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2563eb;
+    border-radius: 6px;
+    list-style: none;
+}
+
+/* PROJECTS */
+.project {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-4px);
+}
+
+.project ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.project-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.project-divider {
+    margin: 20px 0;
+    height: 1px;
+    background: #e5e7eb;
+    border: none;
+}
+
+/* BUG CARDS */
+.bug-container {
+    margin-top: 20px;
+}
+
+.bug-card {
+    background: #f9fafb;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #ef4444;
+}
+
+.bug-card a {
+    display: inline-block;
+    margin-top: 6px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bug-card a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Testing Philosophy ===== */
+#philosophy ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#philosophy li {
+    background: white;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    font-weight: 500;
+}
+
+#philosophy .check {
+    color: #16a34a;
+    font-weight: 700;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+/* CONTACT */
+#contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact p {
+    margin-bottom: 14px;
+    font-size: 1.05rem;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f2937;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-bugs {
+    cursor: pointer;
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.toggle-bugs:hover {
+    text-decoration: underline;
+}

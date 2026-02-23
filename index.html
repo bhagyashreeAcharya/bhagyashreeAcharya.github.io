@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bhagyashree Acharya — QA Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <img src="assets/bhagya.jpeg" alt="Bhagyashree Acharya" class="profile-img" />
+        <h1>Bhagyashree Acharya</h1>
+        <p>ISTQB Certified Software Tester | Manual & Automation | Selenium • API • SQL • JMeter • Jira</p>
+        <p class="tagline">
+            Focused on structured test design, defect prevention & scalable automation.
+        </p>
+
+        <div class="resume-actions">
+            <a href="assets/Bhagyashree_Acharya_Resume.pdf"
+               target="_blank"
+               class="resume-btn">
+                📄 View Resume
+            </a>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="about">
+    <h2>Professional Summary</h2>
+    <p>
+        Entry-level QA engineer with hands-on experience in end-to-end web application testing,
+        API validation, database verification, and performance testing. Skilled in structured
+        test case design using Boundary Value Analysis and Equivalence Partitioning,
+        maintaining RTM traceability, and automating regression scenarios using Selenium (Java).
+        Strong focus on early defect detection and reliable test coverage.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Core Skills</h2>
+    <div class="skills-container">
+
+        <div class="skill-category">
+            <h3>Manual Testing</h3>
+            <ul>
+                <li>Functional, Regression & Smoke Testing</li>
+                <li>Test Design Techniques (BVA, EP, Decision Tables)</li>
+                <li>Requirement Analysis & RTM</li>
+                <li>Defect Lifecycle & Reporting (Jira)</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Automation</h3>
+            <ul>
+                <li>Selenium WebDriver (Java)</li>
+                <li>Page Object Model (POM)</li>
+                <li>TestNG & Maven</li>
+                <li>Basic Framework Structuring</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>API Testing</h3>
+            <ul>
+                <li>REST API Testing (Postman)</li>
+                <li>Status Code & Schema Validation</li>
+                <li>Environment Variables</li>
+                <li>Newman CLI Execution</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Performance & Database</h3>
+            <ul>
+                <li>Load & Stress Testing using Apache JMeter</li>
+                <li>Response Time & Throughput Analysis</li>
+                <li>SQL (Joins, Aggregations, Constraints)</li>
+                <li>Backend Data Validation</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section id="metrics">
+    <h2>Key Highlights</h2>
+    <ul>
+        <li>135+ Test Cases Designed & Executed (Ongoing MVP Project)</li>
+        <li>Documented Complete MVP User Stories & Acceptance Criteria</li>
+        <li>Identified 6 defects so far (3 Failed, 3 Blocked - Environment Dependent)</li>
+        <li>Load Testing with 200 Virtual Users using Apache JMeter</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Featured Projects</h2>
+
+    <!-- AJIO -->
+    <div class="project">
+        <h3>AJIO Web E-Commerce Testing</h3>
+        <p><strong>Role:</strong> QA Engineer</p>
+        <p>
+           Performed structured end-to-end testing of an e-commerce purchase flow covering authentication, product discovery, cart management, checkout, coupon validation and payment workflows.
+        </p>
+
+        <ul>
+            <li>Designed & executed 135+ scenario-driven test cases</li>
+            <li>Documented User Stories & Acceptance Criteria for complete MVP scope</li>
+            <li>Maintained RTM for full requirement traceability</li>
+            <li>Identified 6 defects so far (3 Failed, 3 Blocked - Environment Dependent)</li>
+        </ul>
+
+       <div class="project-links">
+    <a href="assets/Test Execution Summary.pdf" target="_blank">📊 Test Summary</a>
+    <a href="#" class="toggle-bugs">🐞 View Defect Reports</a>
+    <a href="https://github.com/bhagyashreeAcharya/AJIO-Web-Ecommerce-Purchase-Flow" target="_blank">📂 GitHub</a>
+</div>
+
+<div class="bug-container hidden">
+    <h4>Sample Defect Reports</h4>
+
+    <div class="bug-card">
+        <strong>BUG-003 – Wishlist Not Displayed</strong>
+        <p>High severity functional inconsistency.</p>
+        <a href="assets/BUG-003_Wishlist_Not_Displayed.pdf" target="_blank">View Report</a>
+    </div>
+
+    <div class="bug-card">
+        <strong>BUG-002 – PDP Thumbnail Mismatch</strong>
+        <a href="assets/BUG-002_PDP_Thumbnail_Mismatch_For_New_Product.pdf" target="_blank">View Report</a>
+    </div>
+
+    <div class="bug-card">
+        <strong>BUG-001 – Invalid Mobile Number Accepted</strong>
+        <a href="assets/BUG-001_Invalid_Mobile_Number_Accepted.pdf" target="_blank">View Report</a>
+    </div>
+</div>
+    </div>
+
+    <!-- Automation -->
+    <div class="project">
+        <h3>Selenium Automation – SauceDemo</h3>
+
+        <p> Developed automation framework using Selenium WebDriver with Java, TestNG and Page Object Model. </p>
+        <ul>
+            <li>Integrated TestNG for execution control</li>
+            <li>Managed dependencies using Maven</li>
+            <li>Implemented Page Object Model</li>
+            <li>Automated login and checkout scenarios</li>
+        </ul>
+        <div class="project-links">
+            <a href="https://github.com/bhagyashreeAcharya/SauceDemoAutomation" target="_blank">📂 GitHub</a>
+        </div>
+    </div>
+
+    <!-- Performance -->
+    <div class="project">
+        <h3>FakeStore API Performance Testing</h3>
+
+        <p> Conducted structured load and stress testing using Apache JMeter to evaluate scalability, stability and backend saturation limits. </p>
+        <ul>
+            <li>Progressive load from 1 to 200 concurrent users</li>
+            <li>Identified optimal capacity at 100 concurrent users</li>
+            <li>Analyzed P95 & P99 latency</li>
+            <li>Maintained stable response profile under configured stress scenarios</li>
+        </ul>
+        <div class="project-links">
+            <a href="assets/Performance_Analysis_Report.pdf" target="_blank">📊 Report</a>
+            <a href="https://github.com/bhagyashreeAcharya/fakestore-performance-testing" target="_blank">📂 GitHub</a>
+        </div>
+    </div>
+
+    <!-- API -->
+    <div class="project">
+        <h3>ReqRes REST API Testing</h3>
+
+        <li>Maintained stable response profile under configured stress scenarios</li>
+        <ul>
+            <li>Status code validation (200, 400, 404)</li>
+            <li>JSON response verification</li>
+            <li>Newman CLI execution</li>
+            <li>Environment variables & pre-request scripts</li>
+        </ul>
+        <div class="project-links">
+            <a href="https://github.com/bhagyashreeAcharya/ReqRes-API-Testing-Project-Postman-" target="_blank">📂 GitHub</a>
+        </div>
+    </div>
+
+    <!-- SQL -->
+    <div class="project">
+        <h3>SQL Database Validation Testing</h3>
+
+        <p> Performed backend data validation using structured SQL queries to verify relational integrity and business rules. </p>
+        <ul>
+            <li>Joins, Aggregations & Constraints</li>
+            <li>Data consistency verification</li>
+            <li>CRUD operation validation</li>
+        </ul>
+        <div class="project-links">
+            <a href="https://github.com/bhagyashreeAcharya/SQL-Database-Testing-Project" target="_blank">📂 GitHub</a>
+        </div>
+    </div>
+
+</section>
+
+<section id="philosophy">
+    <h2>Testing Philosophy</h2>
+    <ul>
+    <li><span class="check">✔</span> Design before execution</li>
+    <li><span class="check">✔</span> Strong focus on boundary & negative testing</li>
+    <li><span class="check">✔</span> Automate stable regression flows</li>
+    <li><span class="check">✔</span> Trace every test back to requirements</li>
+</ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>
+        📧 Email:
+        <a href="mailto:bhag195naid@gmail.com">
+            bhag195naid@gmail.com
+        </a>
+    </p>
+
+    <p>
+        🔗 GitHub:
+        <a href="https://github.com/bhagyashreeAcharya" target="_blank">
+            github.com/bhagyashreeAcharya
+        </a>
+    </p>
+
+    <p>
+        💼 LinkedIn:
+        <a href="https://www.linkedin.com/in/bhagya-softwaretesting/" target="_blank">
+            linkedin.com/in/bhagya-softwaretesting
+        </a>
+    </p>
+</section>
+</main>
+
+<footer>
+    © 2026 Bhagyashree Acharya
+</footer>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const toggleBtn = document.querySelector(".toggle-bugs");
+    const bugSection = document.querySelector(".bug-container");
+
+    toggleBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        bugSection.classList.toggle("hidden");
+
+        if (bugSection.classList.contains("hidden")) {
+            toggleBtn.textContent = "🐞 View Defect Reports";
+        } else {
+            toggleBtn.textContent = "🔽 Hide Defect Reports";
+        }
+    });
+});
+</script>
+</body>
+</html>
